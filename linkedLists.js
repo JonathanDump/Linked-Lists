@@ -34,9 +34,6 @@ class LinkedList {
   size() {
     let count = 0;
     let tmp = this.head;
-    // if (this.head === null) {
-    //     return 0
-    // }
     while (tmp != null) {
       tmp = tmp.nextNode;
       count++;
